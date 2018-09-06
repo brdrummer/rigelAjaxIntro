@@ -9,16 +9,6 @@ app.use( bodyParser.urlencoded( { extended: true } ) ); // <--- NEEDED FOR POST 
 const port = 5000;
 let books = [];
 
-/// - TEMP
-let tempBook = {
-    title: 'Snow Crash',
-    author: 'Neal Stephenson',
-    genre: "Science Fiction",
-    pages: '480'
-}
-books.push( tempBook );
-/// - END TEMP
-
 // spin up server
 app.listen( port, ()=>{
     console.log( 'server is up on:', port );
