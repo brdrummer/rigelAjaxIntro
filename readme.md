@@ -6,11 +6,11 @@ AJAX, Rigel
 Setting up Node/Express server
 ---
 
-- npm init
-- npm install express --save
-- create .gitigore
-- create server/server.js
-- add this code to spin up server:
+- in termainal: ```npm init```
+- then ```npm install express --save```
+- create .gitigore in the root folder of your project
+- cnext, reate server/server.js
+- add this code to spin up server in server.js:
 
 ```
 // requires
@@ -36,7 +36,7 @@ app.get( '/books', ( req, res )=>{
 Setting up basic web page with JQ
 ---
 
-- in server folder, create "public" folder
+- in "server" folder, create "public" folder
 - in "public" create folders for "scripts" & "vendors"
 - also in "public" create your "index.html"
 - move JQ file to "public/vendors"
